@@ -6,5 +6,5 @@ from api import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('createAST/',views.format_code),
-    path('',views.index)
+    path('home/',views.index)
 ]
