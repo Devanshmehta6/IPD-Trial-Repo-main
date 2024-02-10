@@ -10,7 +10,7 @@ import svgwrite
 
 @csrf_exempt
 def index(request):
-    return render(request,'index.html')
+    return HttpResponse("Hello String")
 
 @csrf_exempt
 def format_code(request):
